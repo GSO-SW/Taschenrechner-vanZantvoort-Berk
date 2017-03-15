@@ -8,3 +8,12 @@ C:\Users\iah51van_zantvo\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenre
 C:\Users\iah51van_zantvo\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.csproj.GenerateResource.Cache
 C:\Users\iah51van_zantvo\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.exe
 C:\Users\iah51van_zantvo\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.pdb
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\bin\Debug\Taschenrechner_Van_Berk.exe.config
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\bin\Debug\Taschenrechner_Van_Berk.exe
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\bin\Debug\Taschenrechner_Van_Berk.pdb
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.csprojResolveAssemblyReference.cache
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.Form1.resources
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.Properties.Resources.resources
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.csproj.GenerateResource.Cache
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.exe
+C:\Users\Nils\Source\Repos\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.pdb

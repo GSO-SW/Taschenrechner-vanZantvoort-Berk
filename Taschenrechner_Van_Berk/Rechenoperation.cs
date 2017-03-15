@@ -10,28 +10,38 @@ namespace Taschenrechner_Van_Berk
     {
         string Rechnung;
         int n;
+        bool KeinOperator;
         bool Rechenteil1;
         bool Rechenteil2;
         bool Rechenteil3;
 
         public Rechenoperation(string Übergabe)
         {
+            n = 0;
             Rechnung = Übergabe;
             Rechenteil1 = false;
             Rechenteil2 = false;
             Rechenteil3 = false;
+            KeinOperator = false;
         }
 
         public void Rechnungunterteilen()
         {
             do 
             {
-                //if (Rechnung.Substring())
+                if (Rechnung.Contains("+") == true)
                 {
-                    Rechenteil1 = true;
+                    if (Rechnung.Substring(n, n + 1) == "+")
+                    {
+                        Rechenteil1 = true;
+                    }
                 }
-
-            }while(Rechenteil1 == false);
+                else
+                {
+                    KeinOperator = true;
+                }
+                n++;
+            }while(Rechenteil1 == false || KeinOperator == false);
         }
     }
 }

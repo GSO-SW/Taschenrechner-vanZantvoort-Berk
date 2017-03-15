@@ -128,6 +128,7 @@ namespace Taschenrechner_Van_Berk
         private void btn_enter_Click(object sender, EventArgs e)
         {
             Rechenoperation myRechenoperation = new Rechenoperation(Display.Text);
+            myRechenoperation.Rechnungunterteilen();
         }
     }
 }
