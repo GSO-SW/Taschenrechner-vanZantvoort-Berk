@@ -12,6 +12,10 @@ namespace Taschenrechner_Van_Berk
 {
     public partial class Form1 : Form
     {
+        Double Ergebnis = 0;
+        String Operator = "";
+        bool Operatorvorhanden = false;
+
         public Form1()
         {
             InitializeComponent();
@@ -22,114 +26,46 @@ namespace Taschenrechner_Van_Berk
 
         }
 
-        private void btn_0_Click(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
-            Display.Text = Display.Text + "0";
-        }
+            if ((Display.Text == "0")||(Operatorvorhanden == true))
+                Display.Clear();
 
-        private void btn_eins_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "1";
+            Button b = (Button)sender;
+            Display.Text = Display.Text + b.Text;
         }
-
-        private void btn_zwei_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "2";
-        }
-
-        private void btn_drei_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "3";
-        }
-
-        private void btn_vier_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "4";
-        }
-
-        private void btn_fünf_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "5";
-        }
-
-        private void btn_sechs_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "6";
-        }
-
-        private void btn_sieben_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "7";
-        }
-
-        private void btn_acht_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "8";
-        }
-
-        private void btn_neun_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "9";
-        }
-
-        private void btn_plus_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "+";
-        }
-
-        private void btn_minus_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "-";
-        }
-
-        private void btn_mal_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "*";
-        }
-
-        private void btn_geteilt_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "/";
-        }
-
-        private void btn_Negativ_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "-";
-        }
-
-        private void btn_punkt_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + ".";
-        }
-
-        private void btn_klammerauf_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + "(";
-        }
-
-        private void btn_klammerzu_Click(object sender, EventArgs e)
-        {
-            Display.Text = Display.Text + ")";
-        }
-
-        private void btn_del_Click(object sender, EventArgs e)
-        {
-            if (Display.Text.Length > 0)
-            {
-                Display.Text = Display.Text.Substring(0,Display.Text.Length - 1);
-            }
-        }
-
         private void btn_clear_Click(object sender, EventArgs e)
         {
-            Display.Text = "";
+            Display.Text = "0";
+        }
+
+        private void Operator_Clicked(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            Operator = b.Text;
+            Ergebnis = Double.Parse(Display.Text);
+            Operatorvorhanden = true;
         }
 
         private void btn_enter_Click(object sender, EventArgs e)
         {
-            Rechenoperation myRechenoperation = new Rechenoperation(Display.Text);
-            myRechenoperation.Rechnungunterteilen();
+            switch (Operator)
+            {
+                case "+":
+                    Display.Text = (Ergebnis + Double.Parse(Display.Text)).ToString();
+                    break;
+                case "-":
+                    Display.Text = (Ergebnis - Double.Parse(Display.Text)).ToString();
+                    break;
+                case "*":
+                    Display.Text = (Ergebnis * Double.Parse(Display.Text)).ToString();
+                    break;
+                case "/":
+                    Display.Text = (Ergebnis / Double.Parse(Display.Text)).ToString();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
-//
