@@ -50,6 +50,7 @@
             this.btn_klammerzu = new System.Windows.Forms.Button();
             this.btn_del = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
+            this.Rechnunglable = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Display
@@ -210,7 +211,7 @@
             this.btn_mal.Name = "btn_mal";
             this.btn_mal.Size = new System.Drawing.Size(75, 42);
             this.btn_mal.TabIndex = 15;
-            this.btn_mal.Text = "X";
+            this.btn_mal.Text = "*";
             this.btn_mal.UseVisualStyleBackColor = true;
             this.btn_mal.Click += new System.EventHandler(this.Operator_Clicked);
             // 
@@ -260,6 +261,7 @@
             this.btn_del.TabIndex = 20;
             this.btn_del.Text = "<---";
             this.btn_del.UseVisualStyleBackColor = true;
+            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
             // 
             // btn_clear
             // 
@@ -271,11 +273,21 @@
             this.btn_clear.UseVisualStyleBackColor = true;
             this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
+            // Rechnunglable
+            // 
+            this.Rechnunglable.AutoSize = true;
+            this.Rechnunglable.BackColor = System.Drawing.SystemColors.Menu;
+            this.Rechnunglable.Location = new System.Drawing.Point(26, 15);
+            this.Rechnunglable.Name = "Rechnunglable";
+            this.Rechnunglable.Size = new System.Drawing.Size(0, 13);
+            this.Rechnunglable.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 395);
+            this.Controls.Add(this.Rechnunglable);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_del);
             this.Controls.Add(this.btn_klammerzu);
@@ -329,6 +341,7 @@
         private System.Windows.Forms.Button btn_klammerzu;
         private System.Windows.Forms.Button btn_del;
         private System.Windows.Forms.Button btn_clear;
+        private System.Windows.Forms.Label Rechnunglable;
     }
 }
 

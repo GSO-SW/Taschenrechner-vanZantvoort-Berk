@@ -30,7 +30,7 @@ namespace Taschenrechner_Van_Berk
         {
             if ((Display.Text == "0")||(Operatorvorhanden == true))
                 Display.Clear();
-
+            Operatorvorhanden = false;
             Button b = (Button)sender;
             Display.Text = Display.Text + b.Text;
         }
@@ -45,10 +45,13 @@ namespace Taschenrechner_Van_Berk
             Operator = b.Text;
             Ergebnis = Double.Parse(Display.Text);
             Operatorvorhanden = true;
+            Rechnunglable.Text = Ergebnis + " " + Operator;
         }
 
         private void btn_enter_Click(object sender, EventArgs e)
         {
+            Operatorvorhanden = false;
+            Rechnunglable.Text = "";
             switch (Operator)
             {
                 case "+":
@@ -66,6 +69,12 @@ namespace Taschenrechner_Van_Berk
                 default:
                     break;
             }
+        }
+
+        private void btn_del_Click(object sender, EventArgs e)
+        {
+            Display.Clear();
+            Ergebnis = 0;
         }
     }
 }
