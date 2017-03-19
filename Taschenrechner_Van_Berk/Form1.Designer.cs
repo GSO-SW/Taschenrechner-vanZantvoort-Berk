@@ -69,6 +69,7 @@
             // 
             // btn_sieben
             // 
+            this.btn_sieben.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sieben.Location = new System.Drawing.Point(12, 108);
             this.btn_sieben.Name = "btn_sieben";
             this.btn_sieben.Size = new System.Drawing.Size(57, 42);
@@ -79,6 +80,7 @@
             // 
             // btn_neun
             // 
+            this.btn_neun.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_neun.Location = new System.Drawing.Point(138, 108);
             this.btn_neun.Name = "btn_neun";
             this.btn_neun.Size = new System.Drawing.Size(57, 42);
@@ -89,6 +91,7 @@
             // 
             // btn_acht
             // 
+            this.btn_acht.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_acht.Location = new System.Drawing.Point(75, 108);
             this.btn_acht.Name = "btn_acht";
             this.btn_acht.Size = new System.Drawing.Size(57, 42);
@@ -99,6 +102,7 @@
             // 
             // btn_vier
             // 
+            this.btn_vier.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_vier.Location = new System.Drawing.Point(12, 156);
             this.btn_vier.Name = "btn_vier";
             this.btn_vier.Size = new System.Drawing.Size(57, 42);
@@ -109,6 +113,7 @@
             // 
             // btn_fünf
             // 
+            this.btn_fünf.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_fünf.Location = new System.Drawing.Point(75, 156);
             this.btn_fünf.Name = "btn_fünf";
             this.btn_fünf.Size = new System.Drawing.Size(57, 42);
@@ -119,6 +124,7 @@
             // 
             // btn_sechs
             // 
+            this.btn_sechs.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_sechs.Location = new System.Drawing.Point(138, 156);
             this.btn_sechs.Name = "btn_sechs";
             this.btn_sechs.Size = new System.Drawing.Size(57, 42);
@@ -129,6 +135,7 @@
             // 
             // btn_eins
             // 
+            this.btn_eins.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_eins.Location = new System.Drawing.Point(12, 204);
             this.btn_eins.Name = "btn_eins";
             this.btn_eins.Size = new System.Drawing.Size(57, 42);
@@ -139,6 +146,7 @@
             // 
             // btn_zwei
             // 
+            this.btn_zwei.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_zwei.Location = new System.Drawing.Point(75, 204);
             this.btn_zwei.Name = "btn_zwei";
             this.btn_zwei.Size = new System.Drawing.Size(57, 42);
@@ -149,6 +157,7 @@
             // 
             // btn_drei
             // 
+            this.btn_drei.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_drei.Location = new System.Drawing.Point(138, 204);
             this.btn_drei.Name = "btn_drei";
             this.btn_drei.Size = new System.Drawing.Size(57, 42);
@@ -159,6 +168,7 @@
             // 
             // btn_0
             // 
+            this.btn_0.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_0.Location = new System.Drawing.Point(12, 252);
             this.btn_0.Name = "btn_0";
             this.btn_0.Size = new System.Drawing.Size(57, 42);
@@ -169,15 +179,20 @@
             // 
             // btn_Negativ
             // 
+            this.btn_Negativ.Enabled = false;
+            this.btn_Negativ.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_Negativ.Location = new System.Drawing.Point(138, 252);
             this.btn_Negativ.Name = "btn_Negativ";
             this.btn_Negativ.Size = new System.Drawing.Size(57, 42);
             this.btn_Negativ.TabIndex = 11;
             this.btn_Negativ.Text = "(-)";
             this.btn_Negativ.UseVisualStyleBackColor = true;
+            this.btn_Negativ.Click += new System.EventHandler(this.btn_Negativ_Click);
             // 
             // btn_punkt
             // 
+            this.btn_punkt.Enabled = false;
+            this.btn_punkt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_punkt.Location = new System.Drawing.Point(75, 252);
             this.btn_punkt.Name = "btn_punkt";
             this.btn_punkt.Size = new System.Drawing.Size(57, 42);
@@ -187,6 +202,7 @@
             // 
             // btn_plus
             // 
+            this.btn_plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_plus.Location = new System.Drawing.Point(201, 108);
             this.btn_plus.Name = "btn_plus";
             this.btn_plus.Size = new System.Drawing.Size(75, 42);
@@ -197,6 +213,7 @@
             // 
             // btn_minus
             // 
+            this.btn_minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_minus.Location = new System.Drawing.Point(201, 156);
             this.btn_minus.Name = "btn_minus";
             this.btn_minus.Size = new System.Drawing.Size(75, 42);
@@ -207,6 +224,7 @@
             // 
             // btn_mal
             // 
+            this.btn_mal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_mal.Location = new System.Drawing.Point(201, 204);
             this.btn_mal.Name = "btn_mal";
             this.btn_mal.Size = new System.Drawing.Size(75, 42);
@@ -217,6 +235,7 @@
             // 
             // btn_geteilt
             // 
+            this.btn_geteilt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_geteilt.Location = new System.Drawing.Point(201, 252);
             this.btn_geteilt.Name = "btn_geteilt";
             this.btn_geteilt.Size = new System.Drawing.Size(75, 42);
@@ -227,6 +246,7 @@
             // 
             // btn_enter
             // 
+            this.btn_enter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_enter.Location = new System.Drawing.Point(201, 300);
             this.btn_enter.Name = "btn_enter";
             this.btn_enter.Size = new System.Drawing.Size(75, 90);
@@ -237,15 +257,20 @@
             // 
             // btn_klammerauf
             // 
+            this.btn_klammerauf.Enabled = false;
+            this.btn_klammerauf.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_klammerauf.Location = new System.Drawing.Point(12, 300);
             this.btn_klammerauf.Name = "btn_klammerauf";
             this.btn_klammerauf.Size = new System.Drawing.Size(57, 42);
             this.btn_klammerauf.TabIndex = 18;
             this.btn_klammerauf.Text = "(";
             this.btn_klammerauf.UseVisualStyleBackColor = true;
+            this.btn_klammerauf.Click += new System.EventHandler(this.btn_klammerauf_Click);
             // 
             // btn_klammerzu
             // 
+            this.btn_klammerzu.Enabled = false;
+            this.btn_klammerzu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_klammerzu.Location = new System.Drawing.Point(12, 348);
             this.btn_klammerzu.Name = "btn_klammerzu";
             this.btn_klammerzu.Size = new System.Drawing.Size(57, 42);
@@ -255,6 +280,7 @@
             // 
             // btn_del
             // 
+            this.btn_del.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_del.Location = new System.Drawing.Point(75, 300);
             this.btn_del.Name = "btn_del";
             this.btn_del.Size = new System.Drawing.Size(57, 90);
@@ -265,6 +291,7 @@
             // 
             // btn_clear
             // 
+            this.btn_clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_clear.Location = new System.Drawing.Point(138, 300);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(57, 90);

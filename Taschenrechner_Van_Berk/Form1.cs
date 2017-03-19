@@ -68,13 +68,23 @@ namespace Taschenrechner_Van_Berk
                     break;
                 default:
                     break;
-            }
+            }         
         }
 
         private void btn_del_Click(object sender, EventArgs e)
         {
             Display.Clear();
             Ergebnis = 0;
+        }
+
+        private void btn_klammerauf_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Negativ_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
