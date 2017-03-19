@@ -191,14 +191,14 @@
             // 
             // btn_punkt
             // 
-            this.btn_punkt.Enabled = false;
             this.btn_punkt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_punkt.Location = new System.Drawing.Point(75, 252);
             this.btn_punkt.Name = "btn_punkt";
             this.btn_punkt.Size = new System.Drawing.Size(57, 42);
             this.btn_punkt.TabIndex = 12;
-            this.btn_punkt.Text = ".";
+            this.btn_punkt.Text = ",";
             this.btn_punkt.UseVisualStyleBackColor = true;
+            this.btn_punkt.Click += new System.EventHandler(this.Button_Clicked);
             // 
             // btn_plus
             // 
