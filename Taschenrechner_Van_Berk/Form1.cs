@@ -15,6 +15,7 @@ namespace Taschenrechner_Van_Berk
         Double Ergebnis = 0;
         String Operator = "";
         bool Operatorvorhanden = false;
+        bool neueRechnung = true;
 
         public Form1()
         {
@@ -28,15 +29,12 @@ namespace Taschenrechner_Van_Berk
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            if ((Display.Text == "0")||(Operatorvorhanden == true))
+            if ((Display.Text == "0")||(Operatorvorhanden == true)||(neueRechnung == true))
                 Display.Clear();
             Operatorvorhanden = false;
             Button b = (Button)sender;
             Display.Text = Display.Text + b.Text;
-        }
-        private void btn_clear_Click(object sender, EventArgs e)
-        {
-            Display.Text = "0";
+            neueRechnung = false;
         }
 
         private void Operator_Clicked(object sender, EventArgs e)
@@ -48,6 +46,11 @@ namespace Taschenrechner_Van_Berk
             Rechnunglable.Text = Ergebnis + " " + Operator;
         }
 
+        private void btn_clear_Click(object sender, EventArgs e)
+        {
+            Display.Text = "0";
+        }
+
         private void btn_enter_Click(object sender, EventArgs e)
         {
             Operatorvorhanden = false;
@@ -56,15 +59,19 @@ namespace Taschenrechner_Van_Berk
             {
                 case "+":
                     Display.Text = (Ergebnis + Double.Parse(Display.Text)).ToString();
+                    neueRechnung = true;
                     break;
                 case "-":
                     Display.Text = (Ergebnis - Double.Parse(Display.Text)).ToString();
+                    neueRechnung = true;
                     break;
                 case "*":
                     Display.Text = (Ergebnis * Double.Parse(Display.Text)).ToString();
+                    neueRechnung = true;
                     break;
                 case "/":
                     Display.Text = (Ergebnis / Double.Parse(Display.Text)).ToString();
+                    neueRechnung = true;
                     break;
                 default:
                     break;
@@ -84,7 +91,7 @@ namespace Taschenrechner_Van_Berk
 
         private void btn_Negativ_Click(object sender, EventArgs e)
         {
-
+            Display.Text = "-" + Display.Text;
         }
     }
 }

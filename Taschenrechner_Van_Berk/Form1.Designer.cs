@@ -179,7 +179,6 @@
             // 
             // btn_Negativ
             // 
-            this.btn_Negativ.Enabled = false;
             this.btn_Negativ.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btn_Negativ.Location = new System.Drawing.Point(138, 252);
             this.btn_Negativ.Name = "btn_Negativ";

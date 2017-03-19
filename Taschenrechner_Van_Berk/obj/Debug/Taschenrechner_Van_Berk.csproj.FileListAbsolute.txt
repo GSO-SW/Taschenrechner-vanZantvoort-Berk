@@ -26,3 +26,12 @@ C:\Users\Nils\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk
 C:\Users\Nils\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.csproj.GenerateResource.Cache
 C:\Users\Nils\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.exe
 C:\Users\Nils\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.pdb
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\bin\Debug\Taschenrechner_Van_Berk.exe.config
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\bin\Debug\Taschenrechner_Van_Berk.exe
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\bin\Debug\Taschenrechner_Van_Berk.pdb
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.csprojResolveAssemblyReference.cache
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.Form1.resources
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.Properties.Resources.resources
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.csproj.GenerateResource.Cache
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.exe
+C:\Users\NilsLaptop\Documents\Taschenrechner-vanZantvoort-Berk\Taschenrechner_Van_Berk\obj\Debug\Taschenrechner_Van_Berk.pdb
