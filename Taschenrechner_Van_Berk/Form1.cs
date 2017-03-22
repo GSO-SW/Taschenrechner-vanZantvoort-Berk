@@ -44,6 +44,7 @@ namespace Taschenrechner_Van_Berk
             Ergebnis = Double.Parse(Display.Text);
             Operatorvorhanden = true;
             Rechnunglable.Text = Ergebnis + " " + Operator;
+            Display.Text = "0";
         }
 
         private void btn_clear_Click(object sender, EventArgs e)
@@ -75,13 +76,15 @@ namespace Taschenrechner_Van_Berk
                     break;
                 default:
                     break;
-            }         
+            }
+            Operator = "";
         }
 
         private void btn_del_Click(object sender, EventArgs e)
         {
             Display.Clear();
             Ergebnis = 0;
+            Display.Text = "0";
         }
 
         private void btn_klammerauf_Click(object sender, EventArgs e)

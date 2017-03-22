@@ -336,8 +336,10 @@
             this.Controls.Add(this.btn_neun);
             this.Controls.Add(this.btn_sieben);
             this.Controls.Add(this.Display);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Taschenrechner";
             this.ResumeLayout(false);
             this.PerformLayout();
 
