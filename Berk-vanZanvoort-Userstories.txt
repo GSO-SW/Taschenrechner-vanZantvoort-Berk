@@ -1,0 +1,23 @@
+Grafische Oberfläche:
+-Als User möchte ich eine übersichtliche grafische Oberfläche haben, auf dem das Ergebnis angezeigt wird.
+
+Addition:
+-Als User möchte ich größere Additionen durchführen.
+
+Subtraktion:
+-Als User möchte ich Subtraktionen mit größeren Zahlen durchführen können.
+
+Multiplikation:
+-Als User möchte ich große Zahlen ganz schnell miteinander multiplizieren.
+
+Division:
+-Als User möchte ich dividieren können.
+
+Reelle Zahl:
+-Als User möchte ich Rechnungen mit reellen Zahlen durchführen können.
+
+Löschen:
+-Als User möchte ich fehlerhafte Eingaben löschen können.
+
+Priorität:
+-Als User möchte ich durch setzen von Klammern eine Priorität in einer einzigen Gleichung bestimmen.

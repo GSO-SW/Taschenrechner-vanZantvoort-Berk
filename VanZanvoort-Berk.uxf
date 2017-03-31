@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>40</y>
+      <w>480</w>
+      <h>528</h>
+    </coordinates>
+    <panel_attributes>Form1
+--
+btn_0: Button
+btn_acht: Button
+btn_clear: Button
+btn_del: Button
+btn_drei: Button
+btn_eins: Button
+btn_enter: Button
+btn_fünf: Button
+btn_geteilt: Button
+btn_klammerauf: Button
+btn_klammerzu: Button
+btn_mal: Button
+btn_minus: Button
+btn_Negativ: Button
+btn_neun: Button
+btn_plus: Button
+btn_punkt: Button
+btn_sechs: Button
+btn_sieben: Button
+btn_vier: Button
+btn_zwei: Button
+components: Container
+Display: TextBox
+Ergebnis: Double
+neueRechnung: Bool
+Operator: String
+Operatorvorhanden: Bool
+Rechnunglable: Label
+--
+Form1.btn_clear_Click()
+Form1.btn_del_Click()
+Form1.btn_enter_Click()
+Form1.btn_klammerauf_Click()
+Form1.btn_Negativ_Click()
+Form1.Button_Clicked()
+Form1.Display_TextChanged()
+Form1.Dispose()
+Form1.Form1()
+Form1.InitializeComponent()
+Form1.Operator_Clicked()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
